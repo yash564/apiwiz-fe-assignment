@@ -66,7 +66,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Deployed Version
 
-- https://apiwiz-fe-assignment-9g9rudlns-yashs-projects-b0f70f0e.vercel.app
+- https://apiwiz-fe-assignment.vercel.app/
 
 ## License
 
