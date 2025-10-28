@@ -17,6 +17,9 @@ Automatically generates a tree graph with connected edges between parent and chi
 ✅ **Search & Highlight**  
 Search nested keys (like `user.address.city`) — the matching node is highlighted in the graph.
 
+✅ **Dark / Light Mode Toggle** 🌗  
+Switch themes easily with a single click. The UI and tree adapt instantly.
+
 ✅ **Interactive Controls**  
 Use zoom, pan, and fit-to-view controls built into React Flow.
 
@@ -24,7 +27,7 @@ Use zoom, pan, and fit-to-view controls built into React Flow.
 Built with HTML, CSS (custom styling), and React for a clean, intuitive layout.
 
 ✅ **Extendable**  
-Easily extend for features like dark mode, collapsible nodes, or automatic layouts (with dagre).
+Easily add new features like auto-layout, collapsible nodes, or better search.
 
 ---
 
