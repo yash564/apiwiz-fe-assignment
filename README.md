@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# 🌳 JSON Tree Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application that visualizes any JSON data as an interactive tree using **React Flow**.
 
-## Available Scripts
+You can paste JSON, generate a tree graph, and even search for specific nodes or keys (e.g., `user.address.city`).
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ **JSON Input & Validation**  
+Paste or type JSON and visualize it instantly. Invalid JSON shows an error message.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ **Tree Visualization (React Flow)**  
+Automatically generates a tree graph with connected edges between parent and child nodes.
 
-### `npm test`
+✅ **Search & Highlight**  
+Search nested keys (like `user.address.city`) — the matching node is highlighted in the graph.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ **Interactive Controls**  
+Use zoom, pan, and fit-to-view controls built into React Flow.
 
-### `npm run build`
+✅ **Clean, Modern UI**  
+Built with HTML, CSS (custom styling), and React for a clean, intuitive layout.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✅ **Extendable**  
+Easily extend for features like dark mode, collapsible nodes, or automatic layouts (with dagre).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧩 Tech Stack
 
-### `npm run eject`
+- **React (JavaScript)**
+- **React Flow** – for rendering the tree graph
+- **CSS (custom)** – for styling
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Node.js (v16+ recommended)
+- npm or yarn
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+# or
+yarn install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Running the App
 
-### Code Splitting
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-### Analyzing the Bundle Size
+## Deployed Version
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [https://atlys-assignment-4s2l.vercel.app](https://apiwiz-fe-assignment-9g9rudlns-yashs-projects-b0f70f0e.vercel.app/)
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT
